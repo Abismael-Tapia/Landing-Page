@@ -5,7 +5,7 @@
 
 .flex {
     display: flex;
-    justify-content: center;
+    
 }
 .header {
     background-color: #1f2937;
@@ -22,9 +22,10 @@
     font-size: 18px;
  }
 
- #logo {
+.container-header-logo {
     color: #f9faf8;
     font-size: 24px;
+    margin: auto;
  }
 
  .title {
@@ -50,7 +51,7 @@
  }
 
  .container-links {
-    border: 5px solid black;
+
     width: 75%;
     height: 50px;
     gap: 510px;
@@ -58,7 +59,7 @@
  }
 
  .container-content {
-    border: 5px solid blue;
+    
     width: 75%;
     height: 300px;
     justify-content: space-between;
@@ -66,7 +67,7 @@
  }
 
  .header-links {
-    border: 2px solid red;
+    
     justify-content: space-between;
     align-items: center;
     width: 40%;
@@ -74,18 +75,18 @@
  }
 
  .container-header-logo {
-    border: 2px solid red;
+    
  }
 
  .container-text {
-    border: 1px solid orange;
+    
     flex-direction: column;
     width: 400px;
 
  }
 
  .container-img {
-    border: 1px solid orange;
+    
     background: rgba(245, 237, 237, 0.863);
     flex-direction: row;
     width: 400px;
