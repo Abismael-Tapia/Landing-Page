@@ -148,6 +148,60 @@
  }
 
  .container-cite {
+   border: 1px solid blue;
+   justify-content: flex-end;
+   width: 75%;
+ }
+
+ #cite {
+   font-size: 16px;
+   font-weight: bold;
+   margin-left: 300px;
+ }
+
+ .container-two {
+   width: 100%;
+   height: 300px;
    justify-content: center;
+   align-items: center;
+ }
+
+ .container-blue {
+   background-color: #3882f6;
+   border-radius: 10px;
    width: 750px;
+   height: 100px;
+   justify-content: center;
+   align-items: center;
+   gap: 35px;
+ }
+
+ .title-cb {
+   color: white;
+ }
+
+
+ .p-cb {
+   color: white;
+ }
+
+ .button-cb {
+   width: 95px;
+   height: 30px;
+   background-color: #3882f6;
+   color: white;
+   border: 2px solid white;
+   border-radius: 7px;
+ }
+
+ footer {
+   background-color: #1f2937;
+   width: 100%;
+   height: 100px;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .copyright {
+   color: white;
  }
